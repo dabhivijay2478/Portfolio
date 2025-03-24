@@ -1,7 +1,5 @@
 # Portfolio Redesign 2025 �
 
-![Project Preview](./public/preview.png) <!-- Add a preview image if available -->
-
 A modern, performant portfolio website showcasing my skills, projects, and professional journey. Built with cutting-edge web technologies to demonstrate frontend development expertise.
 
 ## Features ✨
