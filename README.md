@@ -31,4 +31,4 @@ A modern, performant portfolio website showcasing my skills, projects, and profe
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/SuryaLimbu/portfolio-redesign-2025.git
+git clone https://github.com/dabhivijay2478/Portfolio
