@@ -6,20 +6,17 @@ import { ModeToggle } from "../mode-toggle";
 import { useTheme } from "next-themes";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
-
+import Logo from "../../public/bg1.png"
 export default function Navbar() {
   const { resolvedTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const pathname = usePathname();
-
-  const darkLogo = "/logo/logo.png";
-  const lightLogo = "/logo/logo-light.png";
   const menuItems = [
     { label: "All", href: "/" },
     // { label: "Projects", href: "/projects" },
     { label: "About", href: "/credential" },
-    
+
   ];
 
   useEffect(() => {
@@ -33,7 +30,7 @@ export default function Navbar() {
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="flex items-center">
           <Image
-            src={resolvedTheme === "dark" ? darkLogo : lightLogo}
+            src={Logo}
             alt="Logo"
             width={32}
             height={32}
@@ -48,11 +45,10 @@ export default function Navbar() {
             <Link
               key={item.href}
               href={item.href}
-              className={`px-4 py-2 rounded-3xl transition-colors ${
-                pathname === item.href
-                  ? "bg-foreground text-background"
-                  : "hover:bg-foreground/10"
-              }`}
+              className={`px-4 py-2 rounded-3xl transition-colors ${pathname === item.href
+                ? "bg-foreground text-background"
+                : "hover:bg-foreground/10"
+                }`}
             >
               {item.label}
             </Link>
@@ -79,11 +75,10 @@ export default function Navbar() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className={`w-full text-center py-3 rounded-lg transition-colors ${
-                    pathname === item.href
-                      ? "bg-foreground text-background"
-                      : "hover:bg-foreground/10"
-                  }`}
+                  className={`w-full text-center py-3 rounded-lg transition-colors ${pathname === item.href
+                    ? "bg-foreground text-background"
+                    : "hover:bg-foreground/10"
+                    }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.label}
