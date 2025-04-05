@@ -3,8 +3,6 @@ import { OrbitingCircles } from "../magicui/orbiting-circles";
 import {
   FaAws,
   FaReact,
-  FaDatabase,
-  FaGit
 } from "react-icons/fa";
 import {
   SiTailwindcss,

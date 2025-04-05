@@ -3,12 +3,10 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { ModeToggle } from "../mode-toggle";
-import { useTheme } from "next-themes";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import Logo from "../../public/bg1.png"
 export default function Navbar() {
-  const { resolvedTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const pathname = usePathname();

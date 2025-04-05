@@ -4,21 +4,21 @@ import Image from "next/image";
 // import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 // import { ChevronRight, ArrowUpRight, Github, ExternalLink } from "lucide-react";
-import { Dribbble, Instagram } from "lucide-react";
-import HtmlIcon from "@/components/icons/html";
-import CssIcon from "@/components/icons/css";
+// import { Dribbble, Instagram } from "lucide-react";
+// import HtmlIcon from "@/components/icons/html";
+// import CssIcon from "@/components/icons/css";
 import NodeJs from "@/components/icons/nodeJs";
 import LinkedInIcon from "@/components/icons/linkedIn";
-import BehenceIcon from "@/components/icons/behence";
-import BootstrapIcon from "@/components/icons/bootstrap";
+// import BehenceIcon from "@/components/icons/behence";
+// import BootstrapIcon from "@/components/icons/bootstrap";
 import JavaScriptIcon from "@/components/icons/javascript";
-import LaravelIcon from "@/components/icons/laravel";
+// import LaravelIcon from "@/components/icons/laravel";
 import MongoDBIcon from "@/components/icons/mongodb";
 import MySQLIcon from "@/components/icons/mysql";
 import Nextjs from "@/components/icons/nextjs";
-import PhpIcon from "@/components/icons/php";
+// import PhpIcon from "@/components/icons/php";
 import PostgreSQLIcon from "@/components/icons/postgresql";
-import PythonIcon from "@/components/icons/python";
+// import PythonIcon from "@/components/icons/python";
 import ReactIcon from "@/components/icons/react";
 import TailwindIcon from "@/components/icons/tailwindcss";
 import { BorderBeam } from "@/components/magicui/border-beam";
@@ -73,7 +73,7 @@ export default function Page() {
             <h2 className="text-3xl font-bold mb-4">About Me</h2>
             <div className="max-w-3xl mx-auto">
               <p className="text-gray-400 leading-relaxed text-base space-y-4">
-                I'm Vijaykumar Dabhi, a Backend Developer at York.IE specializing in Node.js, NestJS, and AWS. I build scalable, high-performance applications while expanding my expertise in GraphQL and cloud technologies. My experience includes:
+                I&#39;m Vijaykumar Dabhi, a Backend Developer at York.IE specializing in Node.js, NestJS, and AWS. I build scalable, high-performance applications while expanding my expertise in GraphQL and cloud technologies. My experience includes:
               </p>
 
               <ul className="text-gray-400 mt-4 space-y-2 list-disc pl-5">
@@ -101,17 +101,8 @@ export default function Page() {
                   <div className="flex flex-col gap-4">
                     <div className="flex bg-blue-600/5 rounded-3xl p-2 gap-4 justify-around">
                       <JavaScriptIcon width={width} height={height} />
-
                     </div>
-
                   </div>
-                  {/* <ul className="list-disc ml-6">
-                    <li>JavaScript (Actively using)</li>
-                    <li>Python (Actively using)</li>
-                    <li>PHP (Proficient)</li>
-                    <li>HTML (Proficient)</li>
-                    <li>CSS (Proficient)</li>
-                  </ul> */}
                   <BorderBeam duration={6} size={100} />
                 </div>
                 <div className="card_bg p-6">
@@ -128,13 +119,6 @@ export default function Page() {
                       <SiShadcnui width={width} height={height} />
                     </div>
                   </div>
-                  {/* <ul className="list-disc ml-6">
-                    <li>React (Proficient)</li>
-
-                    <li>Laravel (Proficient)</li>
-                    <li>Tailwind CSS (Actively using)</li>
-                    <li>Bootstrap (Proficient)</li>
-                  </ul> */}
                   <BorderBeam duration={5} size={100} />
                 </div>
                 <div className="card_bg p-6">
@@ -149,13 +133,6 @@ export default function Page() {
                     <MongoDBIcon width={width} height={height} />
                     <MySQLIcon width={width} height={height} />
                   </div>
-
-                  {/* <ul className="list-disc ml-6">
-                    <li>MongoDB (Proficient)</li>
-                    <li>PostgreSQL (Actively using)</li>
-                    <li>MySQL (Proficient)</li>
-                    <li>Node.js (Proficient)</li>
-                  </ul> */}
                   <BorderBeam duration={4} size={100} />
                 </div>
                 <div className="card_bg p-6">
@@ -166,17 +143,6 @@ export default function Page() {
                     <FaAws width={width} height={height} />
                     <SiAwsamplify width={width} height={height} />
                   </div>
-                  <div className="flex rounded-3xl p-2 gap-4 justify-around">
-                    {/* < width={width} height={height} /> */}
-                    {/* < width={width} height={height} /> */}
-                  </div>
-
-                  {/* <ul className="list-disc ml-6">
-                    <li>MongoDB (Proficient)</li>
-                    <li>PostgreSQL (Actively using)</li>
-                    <li>MySQL (Proficient)</li>
-                    <li>Node.js (Proficient)</li>
-                  </ul> */}
                   <BorderBeam duration={4} size={100} />
                 </div>
               </div>
