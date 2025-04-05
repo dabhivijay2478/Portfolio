@@ -33,7 +33,7 @@ export default function ProfileGrid() {
                 <div className="flex flex-col">
                   <span className="">Hi, I&apos;m Vijay Dabhi.</span>
                   <span className="text-sm uppercase opacity-50">
-                    B,Tech. Computer Engineering Graduate<br></br>Frontend | Backend 
+                    B,Tech. Computer Engineering Graduate<br></br>Backend 
                     Specialist
                   </span>
                 </div>

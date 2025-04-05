@@ -20,9 +20,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Surya Man Kedem - Software Engineer & UI/UX Designer",
+  title: "Vijay Dabhi - Software Engineer",
   description:
-    "Portfolio of Surya Man Kedem, showcasing expertise in React, Next.js, and UI/UX Design.",
+    "Portfolio of Vijay Dabhi, showcasing expertise in React, Next.js, AWS.",
 };
 
 export default function RootLayout({

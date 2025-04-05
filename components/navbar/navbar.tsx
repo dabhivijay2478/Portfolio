@@ -17,7 +17,7 @@ export default function Navbar() {
   const lightLogo = "/logo/logo-light.png";
   const menuItems = [
     { label: "All", href: "/" },
-    { label: "Projects", href: "/projects" },
+    // { label: "Projects", href: "/projects" },
     { label: "About", href: "/credential" },
     
   ];

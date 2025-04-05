@@ -58,7 +58,7 @@ export default function BentoGrid() {
 
             <div className="flex gap-6">
               <a
-                href="https://www.linkedin.com/in/surya-man-kedem/"
+                href="https://www.linkedin.com/in/vijaydabhi/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg font-medium"
@@ -91,7 +91,7 @@ export default function BentoGrid() {
                 </div>
               </Link>
             </div>
-            <div className="dark:bg-background/5 rounded-3xl p-4 card_bg grid grid-rows-3 gap-y-4 z-auto">
+            {/* <div className="dark:bg-background/5 rounded-3xl p-4 card_bg grid grid-rows-3 gap-y-4 z-auto">
               <div className="grid row-span-2 items-center justify-center gap-y-4">
                 <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300 bg-clip-text text-center text-xl font-semibold leading-none text-transparent dark:from-white dark:to-black ">
                   My Projects
@@ -105,14 +105,14 @@ export default function BentoGrid() {
               </div>
               <Link href="/projects">
                 <div>
-                  {/* <Image src={`/bg1.png`} width={100} height={100} alt="cover" /> */}
+                
                   <h2 className="text-sm font-normal uppercase opacity-50">
                     Showcase
                   </h2>
                   <h1 className=" text-lg font-medium">Projects</h1>
                 </div>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className=" sm:col-span-4">
